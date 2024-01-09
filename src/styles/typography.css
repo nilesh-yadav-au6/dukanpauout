@@ -1,0 +1,191 @@
+@import './fonts.css';
+@tailwind utilities;
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.heading-0,
+.heading-1,
+.heading-3,
+.heading-4,
+.heading-5,
+.heading-6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+@layer utilities {
+  
+  .heading-0 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+
+  .heading-1,
+  h1 {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+
+  .heading-2,
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.005em;
+  }
+
+  .heading-3,
+  h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+  }
+
+  .heading-4,
+  h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+  }
+
+  .heading-5,
+  h5 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+  }
+
+  .heading-6,
+  h6 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.015em;
+  }
+
+  .body-large,
+  p {
+    font-size: 16px;
+    letter-spacing: 0.005em;
+    line-height: 22px;
+    font-weight: 400;
+  }
+
+  .body-text-1 {
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 146.667% */
+  }
+
+  .body-text-2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
+  .sub-body-regular {  
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .sub-body-regular-2 {  
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .sub-title-regular {  
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+
+  .sub-title-medium {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .heading5-galano {
+    /* Heading/H5 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+  }
+
+  .caption-regular-galano {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+  }
+
+  .body-1-galano {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+  }
+
+  .body-2-galano {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+
+  .body-3-galano {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 118.75% */
+  }
+
+  .body-4-galano {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 118.75% */
+  }
+
+  .body-5-galano {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 118.75% */
+  }
+
+  .body-6-galano {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 123.077% */
+    text-decoration-line: underline;
+  }
+}
