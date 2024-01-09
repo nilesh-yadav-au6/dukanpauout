@@ -70,7 +70,7 @@ function Payouts() {
             </p>
           </div>
         </section>
-        <section className="bg-black-100 p-3 rounded-lg">
+        <section className="bg-black-100 p-3 rounded-lg shadow-sm">
           <div className="flex justify-between mb-3">
             <div className="flex items-center w-60 px-4 py-2.5 bg-black-100 rounded border border-solid border-black-85">
               <div className="mr-2">
